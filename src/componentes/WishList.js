@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import WishItem from "./WishItem";
 import "./WishList.css";
 
-const API_URL = "http://localhost:5000/wishes";
+//const API_URL = "http://localhost:5000/wishes";
+const API_URL = "https://wishlist-back-end.onrender.com/wishes"
 
 const WishList = () => {
   const [wishes, setWishes] = useState([]);
